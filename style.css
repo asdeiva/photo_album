@@ -1,6 +1,4 @@
-*{
-    margin: 5px;
-}
+
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -51,6 +49,11 @@
     grid-row-end: 9;
 }
 img{
-    object-fit:fill;
-    max-width: 150px;
+    /* object-fit:fill;
+    max-width: 300px; */
+    max-width: 300px;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+
 }
